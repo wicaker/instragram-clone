@@ -54,9 +54,10 @@ const AppContainer = createAppContainer(AppTabNavigator);
 
 class MainScreen extends Component {
   static navigationOptions = {
-    headerLeft: <Icon name='camera' style={{ paddingLeft: 10 }} />,
-    title: 'Instagram',
-    headerRight: <Icon style={{ paddingRight: 10 }} name='send' />
+    // headerLeft: <Icon name='camera' style={{ paddingLeft: 10 }} />,
+    // title: 'Instagram',
+    // headerRight: <Icon style={{ paddingRight: 10 }} name='send' />
+    header: null
   }
   render() {
     return (
