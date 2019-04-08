@@ -12,6 +12,7 @@ import LikesTab from './AppTabNavigator/LikesTab';
 import ProfileTab from './AppTabNavigator/ProfileTab';
 import SearchTab from './AppTabNavigator/SearchTab';
 
+
 const AppTabNavigator = createBottomTabNavigator({
   HomeTab: {
     screen: HomeTab
